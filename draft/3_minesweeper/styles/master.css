@@ -1,0 +1,37 @@
+* {
+  margin: 0;
+}
+
+.body {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  background-color: #000;
+  color: #00ff00;
+}
+
+.board {
+  display: grid;
+  gap: 2px;
+  grid-template-columns: repeat(10, 30px);
+}
+
+.cell {
+  width: 30px;
+  height: 30px;
+  text-align: center;
+  line-height: 30px;
+  border: 1px solid #ccc;
+  cursor: pointer;
+}
+
+.mine {
+  background-color: #f00;
+  color: #fff;
+}
+
+.cell:not(.mine) {
+  background-color: #000;
+  color: #00ff00;
+}

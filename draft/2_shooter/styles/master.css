@@ -1,0 +1,23 @@
+* {
+  margin: 0;
+}
+
+.spiderman {
+  position: absolute;
+  width: 140px;
+  height: 140px;
+}
+
+.symbiont {
+  position: absolute;
+  width: 180px;
+  height: 180px;
+}
+
+.web {
+  position: absolute;
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  background-color: #666;
+}
